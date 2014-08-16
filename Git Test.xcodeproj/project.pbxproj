@@ -21,6 +21,7 @@
 		721CD8E4199EF6A600AE7168 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 721CD8C6199EF6A600AE7168 /* UIKit.framework */; };
 		721CD8EC199EF6A600AE7168 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 721CD8EA199EF6A600AE7168 /* InfoPlist.strings */; };
 		721CD8EE199EF6A600AE7168 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 721CD8ED199EF6A600AE7168 /* Git_TestTests.m */; };
+		721CD8F9199EFCAC00AE7168 /* XYZTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 721CD8F8199EFCAC00AE7168 /* XYZTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		721CD8E9199EF6A600AE7168 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		721CD8EB199EF6A600AE7168 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		721CD8ED199EF6A600AE7168 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		721CD8F7199EFCAC00AE7168 /* XYZTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XYZTest.h; sourceTree = "<group>"; };
+		721CD8F8199EFCAC00AE7168 /* XYZTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XYZTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				721CD8D8199EF6A600AE7168 /* XYZViewController.m */,
 				721CD8DA199EF6A600AE7168 /* Images.xcassets */,
 				721CD8C9199EF6A600AE7168 /* Supporting Files */,
+				721CD8F7199EFCAC00AE7168 /* XYZTest.h */,
+				721CD8F8199EFCAC00AE7168 /* XYZTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				721CD8D9199EF6A600AE7168 /* XYZViewController.m in Sources */,
 				721CD8D3199EF6A600AE7168 /* XYZAppDelegate.m in Sources */,
 				721CD8CF199EF6A600AE7168 /* main.m in Sources */,
+				721CD8F9199EFCAC00AE7168 /* XYZTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
